@@ -38,7 +38,7 @@ const Banner = () => {
   }, [router]);
 
   return (
-    <section ref={ref} className="container h-fit px-4 mx-auto">
+    <section ref={ref} className="container h-fit px-8 mx-auto m-8">
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-center"
         variants={fadeInUpVariants}

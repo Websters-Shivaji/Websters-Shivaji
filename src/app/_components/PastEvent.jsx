@@ -114,7 +114,7 @@ const StackedCarousel = () => {
 
 const PastEvent = () => {
   return (
-    <div className="flex items-center justify-center container mx-auto overflow-hidden mt-12">
+    <div className="flex items-center justify-center container mx-auto overflow-hidden mt-8">
       <section id="pastevent" className="text-white py-8 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
         <div className="max-w-7xl mx-auto text-center">
           <motion.h1

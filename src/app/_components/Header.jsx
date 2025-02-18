@@ -21,6 +21,8 @@ const Header = ({ children }) => {
 
     const handleExit = () => {
         window.open("/registrationclosed", "_self");
+        // window.open("/workshopregistration", "_blank");
+        // window.open("/techelonsregistration", "_blank");
     };
 
     return (

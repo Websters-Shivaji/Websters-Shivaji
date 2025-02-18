@@ -14,7 +14,7 @@ const councilMembers = [
     {
         name: "Shivani Singh",
         role: "President",
-        image: "/assets/My pic.jpg",
+        image: "/assets/Council/Shivani Singh.jpg",
         linkedin: "#"
     },
     {
@@ -32,7 +32,7 @@ const councilMembers = [
     {
         name: "Shivam Raj Gupta",
         role: "Technical Head",
-        image: "/assets/My pic.jpg",
+        image: "/assets/Council/Shivam Raj Gupta.png",
         linkedin: "https://www.linkedin.com/in/shivam-raj-gupta/"
     },
     {
@@ -50,8 +50,8 @@ const councilMembers = [
     {
         name: "Prateek",
         role: "PR & Social Media Head",
-        image: "/assets/My pic.jpg",
-        linkedin: "#"
+        image: "/assets/Council/Prateek Tiwari.jpg",
+        linkedin: "https://www.linkedin.com/in/prateek-tiwari-a01243277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
         name: "Gaurav Rai",
@@ -63,7 +63,7 @@ const councilMembers = [
 
 const Council = () => {
     return (
-        <section id="council" className="py-12 px-4 max-w-[1400px] mx-auto">
+        <section id="council" className="mt-8 px-4 max-w-[1400px] mx-auto">
             <motion.h1
                 className="text-center text-6xl sm:text-8xl lg:text-9xl font-extrabold text-gray-900 dark:text-white mb-8 sm:mb-10"
                 initial={{ opacity: 0, y: 50 }}
@@ -118,7 +118,7 @@ const Council = () => {
                 {councilMembers.map((member, index) => (
                     <SwiperSlide key={index} className="h-auto">
                         <Card className="overflow-hidden bg-white">
-                            <div className="relative w-full h-[300px]">
+                            <div className="relative w-full h-[380px]">
                                 <Image
                                     src={member.image}
                                     alt={member.name}
@@ -135,7 +135,7 @@ const Council = () => {
                                 <h2 className="text-lg font-bold truncate mb-1">
                                     {member.name}
                                 </h2>
-                                <p className="text-sm text-gray-600 mb-3">
+                                <p className="text-md text-gray-600 mb-3">
                                     {member.role}
                                 </p>
                                 <a
@@ -145,7 +145,7 @@ const Council = () => {
                                     className="inline-flex items-center justify-center text-blue-500"
                                     aria-label={`LinkedIn profile of ${member.name}`}
                                 >
-                                    <Linkedin className="w-5 h-5" />
+                                    <Linkedin className="w-6 h-6" />
                                 </a>
                             </CardContent>
                         </Card>

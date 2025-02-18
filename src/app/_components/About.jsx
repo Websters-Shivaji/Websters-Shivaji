@@ -7,7 +7,7 @@ const About = () => {
     const { ref, inView } = useInView({ threshold: 0.2 });
 
     return (
-        <section id="about" className="flex items-center justify-center px-6 md:px-12 lg:px-20 xl:px-32 mt-8" ref={ref}>
+        <section id="about" className="flex items-center justify-center px-6 md:px-12 lg:px-20 xl:px-32" ref={ref}>
             <motion.div 
                 className="text-center mt-10 md:mt-16"
                 initial={{ opacity: 0, y: 50 }}
