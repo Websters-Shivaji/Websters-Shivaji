@@ -45,7 +45,7 @@ const ComingSoon = () => {
   if (!mounted) return null;
 
   return (
-    <section id="events" className="py-8 md:py-8 relative min-h-screen flex items-center justify-center">
+    <section id="events" className="py-8 md:py-8 relative flex items-center justify-center">
       {/* Particle effect container */}
       <div id="particles" className="absolute inset-0 z-0"></div>
 
